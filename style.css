@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300italic");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0F0F12;
+  }
+  canvas {
+    display: block;
+  }
+
+#headerTitle {
+    color: #6E61F3;
+    position: relative;
+    left: 100px;
+    top: 270px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#slogan {
+  color: white;
+  position: relative;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  left: 100px;
+  margin-bottom: 15px;
+  top: 270px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+#sloganboy {
+  width: 450px;
+  height: 100px;
+}
+
+#slogan2 {
+  color: grey;
+  position: relative;
+  font-Family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  left: 100px;
+  line-height: 18px;
+  top: 270px;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.buyBtn {
+  padding: 12px 35px;
+  border-radius: 30px;
+  position: relative;
+  left: 100px;
+  top: 300px;
+  background-color: #6E61F3;
+  color: white;
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+
+.soon:hover {
+  background-color: #7D71F4;
+}
+
+.dashboard {
+  padding: 12px 35px;
+  position: relative;
+  left: 900px;
+  top: -150px;
+  background-color: #6E61F3;
+  color: white;
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: ease-in 0.3s;
+  
+}
+
+.dashboard:hover {
+  background-color: #7D71F4;
+}
+
+.textureBox {
+  background-color: #7D71F4;
+  width: 150px;
+  height: 20px;
+  position: relative;
+  left: 50px;
+  border-radius: 0px;
+
+}
+
+.textureBox2 {
+  background-color: #7D71F4;
+  width: 150px;
+  height: 20px;
+  position: relative;
+  left: -16px;
+  top: 46px;
+  border-radius: 0px;
+  transform: rotate(90deg);
+}
+
+.textureBox3 {
+  background-color: #7D71F4;
+  width: 150px;
+  height: 20px;
+  position: relative;
+  left: 800px;
+  top: 160px;
+}
+
+.textureBox4 {
+  background-color: #7D71F4;
+  width: 150px;
+  height: 20px;
+  position: relative;
+  left: 870px;
+  top: 75px;
+  transform: rotate(90deg);
+}
+
+.panel1 {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #1d1d23;
+  text-align: center;
+  font-size: 18px;
+}
+
+#status {
+  color: white;
+  position: fixed;
+  top: -30px;
+  left: 260px;
+  font-size: 20px;
+  z-index: 1;
+}
+
+#backButton {
+  padding: 12px 24px;
+  background-color: #6E61F3;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#backButton:hover {
+  background-color: #7D71F4;
+}
+
+#titleServers {
+  color: grey;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+  position: relative;
+  left: 450px;
+  top: 40px;
+}
+
+.ft {
+  width: 205px;
+  height: 50px;
+  background-color: #232329;
+  border: 1px solid #6E61F3;
+  position: relative;
+  color: white;
+  top: 50px;
+  left: 400px;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.ft:hover {
+  transform: scale(1.05);
+  border: 1px solid grey;
+}
+
+#ftText {
+  position: relative;
+  left: 107px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+#ftPar {
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  left: 107px;
+  cursor: pointer;
+}
+
+.ny {
+  width: 205px;
+  height: 50px;
+  background-color: #232329;
+  border: 1px solid #6E61F3;
+  position: relative;
+  color: white;
+  left: 400px;
+  top: 200px;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.ny:hover {
+  transform: scale(1.05);
+  border: 1px solid grey;
+}
+
+#nyText {
+  position: relative;
+  left: 107px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#nyPar {
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  left: 107px;
+}
+
+.ld {
+  width: 205px;
+  height: 50px;
+  background-color: #232329;
+  border: 1px solid #6E61F3;
+  position: relative;
+  color: white;
+  left: 400px;
+  top: 200px;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.ld:hover {
+  transform: scale(1.05);
+  border: 1px solid grey;
+}
+
+#ldText {
+  position: relative;
+  left: 107px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#ldPar {
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  left: 107px;
+}
+
+.ho {
+  width: 205px;
+  height: 50px;
+  background-color: #232329;
+  border: 1px solid #6E61F3;
+  position: relative;
+  color: white;
+  left: 650px;
+  top: -52px;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.ho:hover {
+  transform: scale(1.05);
+  border: 1px solid grey;
+}
+
+#hoText {
+  position: relative;
+  left: 107px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#hoPar {
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  left: 107px;
+}
+
+.en {
+  width: 205px;
+  height: 50px;
+  background-color: #232329;
+  border: 1px solid #6E61F3;
+  position: relative;
+  color: white;
+  left: 650px;
+  top: -5px;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.en:hover {
+  transform: scale(1.05);
+  border: 1px solid grey;
+}
+
+#enText {
+  position: relative;
+  left: 107px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#enPar {
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  left: 107px;
+}
+
+.bs {
+  width: 205px;
+  height: 50px;
+  background-color: #232329;
+  border: 1px solid #6E61F3;
+  position: relative;
+  color: white;
+  left: 650px;
+  top: 46px;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.bs:hover {
+  transform: scale(1.05);
+  border: 1px solid grey;
+}
+
+#bsText {
+  position: relative;
+  left: 107px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+#bsPar {
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  left: 107px;
+}
+
+.gs {
+  width: 205px;
+  height: 50px;
+  background-color: #232329;
+  border: 1px solid #6E61F3;
+  position: relative;
+  color: white;
+  left: 520px;
+  top: 66px;
+  border-radius: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.gs:hover {
+  transform: scale(1.05);
+  border: 1px solid grey;
+}
+
+#gsText {
+  position: relative;
+  left: 107px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#gsPar {
+  font-size: 13px;
+  font-weight: lighter;
+  position: relative;
+  left: 107px;
+}
+
+#nyPic {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -55px;
+  left: 10px;
+}
+
+#ftPic {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -55px;
+  left: 10px;
+}
+
+#ldPic {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -55px;
+  left: 10px;
+}
+
+#hoPic {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -55px;
+  left: 10px;
+}
+
+#enPic {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -55px;
+  left: 10px;
+}
+
+#bsPic {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -55px;
+  left: 10px;
+}
+
+#gsPic {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -55px;
+  left: 10px;
+}
+
+.right {
+  width: 200px;
+  height: 5px;
+  position: relative;
+  left: 550px;
+  border-radius: 100px;
+  top: 50px;
+  background-color: #7D71F4;
+}
+
+.right2 {
+  width: 200px;
+  height: 5px;
+  position: relative;
+  left: 550px;
+  top: 500px;
+  border-radius: 100px;
+  background-color: #7D71F4;
+}
